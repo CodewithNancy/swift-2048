@@ -22,7 +22,7 @@ class ModelTests: XCTestCase, GameModelProtocol {
   }
 
   // Would be better to just make the merge and associated methods static.
-  func scoreChanged(to score: Int) { }
+  function scoreChanged(to score: Int) { }
   func moveOneTile(from: (Int, Int), to: (Int, Int), value: Int) { }
   func moveTwoTiles(from: ((Int, Int), (Int, Int)), to: (Int, Int), value: Int) { }
   func insertTile(at location: (Int, Int), withValue value: Int) { }
